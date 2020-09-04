@@ -6,7 +6,7 @@ int main()
 {
     int secret = 3;
     int guess;
-    int guesscount;
+    int guesscount = 0;
 
     while(guess != secret && guesscount != 3){               //Prompts the user for a number until it's correct or they are out of guess
         cout<<"Guess a number(1 to 9): ";
